@@ -11,7 +11,7 @@ dotenv.config()
 
 const app = express()
 app.use(cors({
-    origin: 'https://avsarsocialmedia.netlify.app/'
+    origin: 'https://avsarsocialmedia.netlify.app'
 }))
 
 app.use(express.json())
